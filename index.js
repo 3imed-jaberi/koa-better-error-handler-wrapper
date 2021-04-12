@@ -34,10 +34,7 @@ function koaBetterErrorHandlerWrapper(
   ...koaBetterErrorHandlerArgs
 ) {
   // override koa's undocumented error handler.
-  app.context.addEventListener(
-    'error',
-    koaBetterErrorHandler(...koaBetterErrorHandlerArgs)
-  );
+  app.context.onerror = koaBetterErrorHandler(...koaBetterErrorHandlerArgs); // eslint-disable-line unicorn/prefer-add-event-listener
   // specify that this is our api.
   if (isApi) app.context.api = isApi;
   // use koa-404-handler.
