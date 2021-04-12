@@ -1,1 +1,47 @@
-# init 🚧 .. 
+{
+  "name": "koa-better-error-handler-wrapper",
+  "version": "1.0.0",
+  "description": "A wrapper function provide a fast way to start with koa better error handler.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3imed-jaberi/koa-better-error-handler-wrapper.git"
+  },
+  "scripts": {
+    "lint": "xo --prettier --space --extends xo-lass"
+  },
+  "keywords": [
+    "koa",
+    "error-handler",
+    "wrapper",
+    "koa-better-error-handler-wrapper",
+    "koa-better-error-handler",
+    "koa-404-handler",
+    "middleware"
+  ],
+  "author": {
+    "name": "imed jaberi",
+    "email": "imed-jaberi@outlook.com",
+    "url": "https://www.3imed-jaberi.com"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "koa": "^2.13.1",
+    "koa-404-handler": "^0.0.2",
+    "koa-better-error-handler": "^7.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-xo-lass": "^1.0.5",
+    "xo": "^0.38.2"
+  },
+  "enignes": {
+    "node": ">= 10"
+  },
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/koa-better-error-handler-wrapper/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/koa-better-error-handler-wrapper#readme"
+}
